@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(netflix-img/bg.jpg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    max-width: 60vw;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+
+}
+
+nav img {
+    color: red;
+    height: 151px;
+    width: 134px;
+    position: relative;
+    z-index: 1;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    /* (-)with nav bar height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 22px;
+
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 48px;
+
+}
+
+.hero> :nth-child(3) {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero>:last-child {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(56, 56, 56);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(253, 246, 246, 0.119);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: #fff;
+    padding: 3px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+
+.btn-red-sm {
+    color: #fff;
+    background-color: red;
+    padding: 6px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+   
+.hero-get {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.main input {
+
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 7px 125px 8px 14px;
+    font-weight: 900;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(243, 236, 236, 0.5);
+
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: #fff;
+    
+}
+
+.first div{
+
+    font-family: "Helvetica Neue", "Segoe UI";
+}
+.secimg{
+    position: relative;
+}
+
+.secimg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.secimg video{
+    position: absolute;
+    top: 77px;
+    right: 0;
+    left: 85px;
+}
+
+
+section.first > div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-family:'Martel Sans', sans-serif;
+    font-weight:bolder;
+    
+    
+}
+
+
+section.first > div :nth-child(2){
+    font-size: 24px;
+    
+    
+}
+
+
+
+
+
