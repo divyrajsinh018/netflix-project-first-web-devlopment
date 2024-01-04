@@ -11,20 +11,20 @@ body {
 }
 
 .main {
-    background-image: url(netflix-img/bg.jpg.jpg);
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 95vh;
     position: relative;
 
 
 }
 
 .main .box {
-    height: 80vh;
+    height: 95vh;
     width: 100%;
-    opacity: 0.74;
+    opacity: 0.64;
     background-color: black;
     position: absolute;
     top: 0;
@@ -38,7 +38,8 @@ nav {
     align-items: center;
     margin: auto;
     justify-content: space-between;
-    height: 62px;
+    height: 100px;
+    padding: 16px 0;
 
 }
 
@@ -58,7 +59,7 @@ nav button {
 
 .hero {
     font-family: 'Martel Sans', sans-serif;
-    height: calc(100% - 62px);
+    height: calc(100% - 100px);
     /* (-)with nav bar height */
     display: flex;
     align-items: center;
@@ -119,10 +120,10 @@ nav button {
     color: #fff;
     background-color: red;
     padding: 6px 24px;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 4px;
 }
-   
+
 .hero-get {
 
     display: flex;
@@ -134,115 +135,172 @@ nav button {
 .main input {
 
     background-color: rgba(23, 23, 23, 0.7);
-    padding: 7px 125px 8px 14px;
+    padding: 10px 125px 8px 14px;
     font-weight: 900;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 4px;
     border: 1px solid rgba(243, 236, 236, 0.5);
 
 
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80vw;
     margin: auto;
     color: #fff;
+
+}
+
+@media  screen and (max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+    }
     
 }
 
-.first div{
+.first div {
 
     font-family: "Helvetica Neue", "Segoe UI";
 }
-.secimg{
+
+.secimg {
     position: relative;
 }
 
-.secimg img{
-    width: 40vw;
+.secimg img {
+    width: 555px;
     position: relative;
     z-index: 10;
-    
+
 }
 
-.secimg video{
+.secimg video {
     position: absolute;
-    top: 77px;
+    top: 108px;
     right: 0;
-    left: 85px;
+    left: 73px;
 }
 
 
-section.first > div {
+section.first>div {
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
 }
 
-section.first > div :nth-child(1){
+section.first>div :nth-child(1) {
     font-size: 48px;
-    font-family:'Martel Sans', sans-serif;
-    font-weight:bolder;
-    
-    
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bolder;
+
+
 }
 
 
-section.first > div :nth-child(2){
+section.first>div :nth-child(2) {
     font-size: 24px;
-    
-    
-}
 
-.faq{
-background: black;
-color: #fff;
-padding: 64px;
 
 }
 
-.faq h2{
+.faq {
+    background: black;
+    color: #fff;
+    padding: 64px;
+
+}
+
+.faq h2 {
     text-align: center;
     font-size: 48px;
     font-family: "poppins";
 }
 
-.faqbox{
+.faqbox {
     display: flex;
     background-color: #2d2d2d;
-    padding:17px;
+    padding: 17px;
     max-width: 60vw;
     margin: 34px auto;
     justify-content: space-between;
     cursor: pointer;
+
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+
+footer {
+    color: #fff;
+    padding: 14px;
+    max-width: 60vw;
+    margin: auto;
+}
+
+footer .Questions {
+    padding: 34px 0;
+
+}
+
+.footer {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 14px;
+
+}
+
+
+@media  screen and (max-width: 1300px) {
     
+.footer {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  
+
+}
+   
+    }
+
+.footer-item {
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
 
-.faqbox:hover{
-    background-color:#414141;
+.footer-item a {
+    color: #fff;
+    font-size: 14px;
+
 }
 
+.seclast div input {
 
 
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 7px 125px 8px 14px;
+    font-weight: 900;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 4px;
+    border: 1px solid rgba(243, 236, 236, 0.5);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.seclast span {
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 6px;
+}
